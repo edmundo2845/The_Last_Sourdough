@@ -1,0 +1,837 @@
+.encabezado{
+    width: 90%;
+    margin-left: 5%;
+}
+
+a{
+    text-decoration: none
+}
+
+a:visited{
+    color: black;
+}
+
+a:link{
+    color: black;
+}
+
+.logo{
+    margin-top: 25px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    width: fit-content;
+    font-size: 25px;
+    line-height: 0px;
+    font-family: 'MonteCarlo', cursive;
+}
+
+.cajaMenu{
+    padding-top: 5px;
+    margin: auto;
+    width: auto;
+    text-align: center;
+    padding-right: 5%;
+}
+
+.menu{
+    list-style:none;
+    list-style-position: none;
+}
+
+.menu li{
+    display: inline-block;
+    width: 180px;
+    height: 40px;
+    font-size: 20px;
+    font-family:'Baloo Da 2', cursive;
+    padding-top: 10px;
+    margin-left: 25px;
+    border: 5px outset rgb(245, 241, 241);
+    background-color:  white;
+    text-align:center;
+    vertical-align: middle;
+    position: relative;
+}
+
+.menu li:hover{
+    background-color: rgb(199, 194, 194);
+    transform: scale(1.1,1.1);
+}
+
+.menu ul{
+    position: absolute;
+    display: none;
+}
+
+.menu ul li{
+    display: block;
+    left: -32.5%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 168px;
+    height: 20px;
+    font-size: 15px;
+    background-color: white;
+    border: rgb(199, 194, 194) 1px solid;
+    padding: 10px;
+}
+
+.menu ul li:hover{
+    text-decoration: underline;
+    background-color: white;
+}
+
+.menu li:hover ul{
+    display: block;
+}
+
+.buscador{
+    width: auto;
+    text-align: right;
+    padding: 15px;
+    padding-right: 25px;
+}
+
+.tituloPrincipal{
+    border-bottom: 1px black solid;
+    margin: 25px;
+    color: black;
+    text-align: left;
+    font-size: 50px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.tituloPrincipal2{
+    border: none;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+.tituloPrincipal3{
+    color: white;
+    border: none;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+.subtitulo{
+    color: rgb(17, 12, 8); 
+    text-align: left; 
+    font-family: 'Permanent Marker', cursive;
+    font-size: 35px;
+    margin-left: 0%;
+}
+
+.subtitulo2{
+    padding-left: 25px;
+    line-height: 40px;
+}
+
+.subtitulo3{
+    color: rgb(17, 12, 8);
+    font-family:'Baloo Da 2', cursive;
+    text-align: center;
+}
+
+.imagenIndex{
+    display: block;
+    margin:auto;
+    width: 80%;
+    height: 650px;
+    position: relative;
+}
+
+.animate__animated.animate__zoomIn{
+    animation-duration: 3s;
+}
+
+.animate__animated.animate__fadeIn{
+    animation-duration: 3s;
+    animation-delay: 3s;
+    opacity: 0.5;
+}
+
+.cajaContenido{
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    width: 70%;
+    height:210px;
+    padding-top: 30px;
+    background-color: black;
+    opacity:0.5;
+    color:white;
+    text-align: center;
+    font-size: 22px;
+    font-family:'Baloo Da 2', cursive;
+}
+
+.padreflex1{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+.padreflex2{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cajaContenido2{
+    border:none;
+    background-image: url(../Imagen/quienessomos2.jpg);
+    background-size: cover;
+    /*background-position-y: 35%;*/
+    height: 130px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.cajaContenido3{
+    border:none;
+    background-image: url(../Imagen/novedades2.jpg);
+    background-size: cover;
+    background-position-y: 50%;
+    height: 130px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.cajaContenido4{
+    border:none;
+    background-image: url(../Imagen/contacto.jpg);
+    background-size: cover;
+    background-position-y: 60%;
+    height: 130px;
+    margin-bottom: 30px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.cajaContenido5{
+    border:none;
+    background-image: url(../Imagen/Productos.jpg);
+    background-size: cover;
+    background-position-y: 50%;
+    height: 130px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.parrafosIntroductorios{
+    text-align: justify;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 18px;
+    font-family:'Baloo Da 2', cursive;
+    word-spacing: 5px;
+
+}
+
+.titulobeneficio{
+    font-size: 18px;
+    font-family:'Baloo Da 2', cursive;
+    color: black;
+}
+
+.informacionBeneficios{
+    font-size: 15px;
+    font-family:'Baloo Da 2', cursive;
+}
+
+.cajaPie{
+    width: 30%;
+    height: 300px;
+    margin-left: 10px;
+    padding-left: 25px;
+    color: black;
+}
+
+.listaSiguenos{
+    list-style: none;
+}
+
+.listaSiguenos li{
+    padding: 0px;
+    padding-left: 10px;
+    margin: 5px;
+    font-size: 18px;
+    font-family:'Baloo Da 2', cursive;
+    position: relative;
+    left: -15%;
+    display: inline-block;
+}
+
+.listaContacto{
+    list-style: none;
+}
+
+.listaContacto li{
+    padding: Opx;
+    margin: 15px;
+    font-size: 18px;
+    font-family:'Baloo Da 2', cursive;
+    position: relative;
+    left: -15%;
+}
+
+.mapa{
+    width: 100%;
+    height: 190px;
+    overflow: auto;
+}
+
+.copyright{
+    clear: left;
+    padding: 20px;
+    padding-bottom: 0px;
+    word-spacing: 3px;
+    font-family:'Baloo Da 2', cursive;
+}
+
+.whatsapp{
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    transition: 1s;
+}
+
+.whatsapp:hover{
+    width: 65px;
+    height: 65px;
+}
+
+.cajaTabla{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.tabla{
+    width: 50%;
+    border:none;
+    border-collapse: collapse;
+    font-family:'Baloo Da 2', cursive;
+}
+
+.tabla td{
+    height: 30px;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+.tabla th{
+    color: honeydew;
+    background-color: rgb(197, 77, 77);
+    text-align: center;
+    height: 50px;
+}
+
+.formulario{
+    border: black 1px solid;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    font-size: 18px;
+    font-family:'Baloo Da 2', cursive;
+}
+
+.padreflex3{
+    margin-left: 25px;
+    margin-right: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+.padreflex4{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 2%;
+}
+
+.padreflex5{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+}
+
+.padreflex6{
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-evenly;
+    margin-bottom: 3%;
+}
+
+.card{
+    position: relative;
+    width: 30%;
+    height: 200px;
+    transition: 0.6s;
+    transform-style:preserve-3d;
+    transform-origin: 100% 100px;
+    margin: 5px;
+    border: none;
+}
+
+.card:hover{
+    transform: rotateX(180deg);
+}
+
+.front, .back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border: none;
+}
+
+.front{
+    transform: rotateX(0deg);
+    background-color: black;
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.back{
+    transform:rotateX(180deg);
+    background-color: rgb(197, 77, 77);
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subtitulo4{
+    margin-top: 0%;
+    width: 270px;
+    height: 40px;
+    border: none;
+    background-color: transparent;
+    text-align: center;
+    padding-top: 10px;
+    color:white;
+    font-size: 20px;
+    font-family:'Baloo Da 2', cursive;
+}
+
+.cajasubtitulo4{
+    background-color: black;
+    width: 0px;
+    height: 50px;
+}
+
+.transitioncajasubtitulo4{
+    transition: ease-in-out 0.7s width;
+}
+
+.productosimg{
+    border-radius: 100px;
+    width:270px;
+    height:195px;
+}
+
+.productosimg:hover + .cajasubtitulo4{
+    width: 270px;
+}
+
+.parrafosIntroductorios2{
+    text-align: center;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 20px;
+    font-family: 'MonteCarlo', cursive;
+    word-spacing: 5px;
+    border: 6px black double;
+}
+
+
+#home{
+    display: grid;
+    grid-template-areas:
+        "header  header  header"
+        "titulo  titulo  titulo"
+        "imagen  imagen  imagen"
+        "parrafo  parrafo  parrafo"
+        "footer  footer  footer";
+    grid-template-rows:1fr 1fr 650px 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    height: 100vh;
+}
+
+.encabezado{
+    grid-area: header;
+}
+
+.sectionhome1{
+    grid-area: titulo;
+}
+
+.sectionhome2{
+    grid-area: imagen;
+    margin-right: 25px;
+    margin-left: 25px;
+    position: relative;
+}
+
+.sectionhome3{
+    grid-area: parrafo;
+    margin-right: 25px;
+    margin-left: 25px;
+    justify-self: center;
+}
+
+.footer{
+    grid-area: footer;
+}
+
+#sobrenosotros{
+    display: grid;
+    grid-template-areas:
+        "header  header  header"
+        "titulo  titulo  titulo"
+        "parrafo  parrafo  parrafo"
+        "subtitulo  subtitulo  subtitulo"
+        "contenido  contenido  contenido"
+        "footer  footer  footer";
+    grid-template-rows:1fr 1fr 1fr 1fr 2fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 5px;
+    height: 100vh;
+}
+
+.encabezado{
+    grid-area: header;
+}
+
+.sectionsobrenosotros1{
+    grid-area: titulo;
+}
+
+.sectionsobrenosotros2{
+    grid-area: parrafo;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+.sectionsobrenosotros3{
+    grid-area: subtitulo;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+.sectionsobrenosotros4{
+    grid-area: contenido;
+    justify-self: center;
+}
+
+.footer{
+    grid-area: footer;
+}
+
+#news{
+    display: grid;
+    grid-template-areas:
+        "header  header  header"
+        "titulo  titulo  titulo"
+        "subtitulo  subtitulo  subtitulo"
+        "contenido  contenido  contenido"
+        "footer  footer  footer";
+    grid-template-rows:1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    height: 100vh;
+}
+
+.encabezado{
+    grid-area: header;
+}
+
+.sectionnews1{
+    grid-area: titulo;
+}
+
+.sectionnews2{
+    grid-area: subtitulo;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+.sectionnews3{
+    grid-area: contenido;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+.footer{
+    grid-area: footer;
+}
+
+#contacto{
+    display: grid;
+    grid-template-areas:
+        "header  header  header"
+        "titulo  titulo  titulo"
+        "contenido  contenido  contenido"
+        "footer  footer  footer";
+    grid-template-rows:1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 5px;
+    grid-row-gap: 20px;
+    height: 100vh;
+}
+
+.encabezado{
+    grid-area: header;
+}
+
+.sectioncontacto1{
+    grid-area: titulo;
+}
+
+.sectioncontacto2{
+    grid-area: contenido;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+.footer{
+    grid-area: footer;
+}
+
+#productos{
+    display: grid;
+    grid-template-areas:
+        "header  header  header"
+        "titulo  titulo  titulo"
+        "parrafo  producto  producto"
+        "footer  footer  footer";
+    grid-template-rows:1fr 1fr 370px 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 5px;
+    grid-row-gap: 20px;
+    height: 100vh;
+}
+
+.encabezado{
+    grid-area: header;
+
+}
+
+.sectionproducto1{
+    grid-area: titulo;
+}
+
+.sectionproducto2{
+    grid-area: producto;
+    margin-right: 25px;
+    align-self: center;
+}
+
+.sectionproducto3{
+    grid-area: parrafo;
+    margin-left: 25px;
+    align-self: center;
+}
+
+.footer{
+    grid-area: footer;
+}
+
+@media (max-width:1292px) {
+    #productos{
+        display: grid;
+        grid-template-areas:
+        "header"
+        "titulo"
+        "parrafo"
+        "producto"
+        "footer";
+        grid-template-rows:1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+        grid-row-gap: 5px;
+    }
+    .productosimg{
+        border-radius: 100px;
+        width:325px;
+        height:200px;
+    }
+    .padreflex4{
+        display: flex;
+        flex-direction: row;
+    }
+    .parrafosIntroductorios2{
+        font-size: 20px;
+        padding:0px;
+    }
+    .whatsapp{
+        visibility: hidden;
+    }
+    .cajaContenido5{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .section2{
+        margin-right: 0px;
+    }
+    .section3{
+        margin-left: 0px;
+    }
+    .menu li{
+        width: 120px;
+        height: 40px;
+        font-size: 15px;
+        font-family:'Baloo Da 2', cursive;
+        padding-top: 10px;
+        margin-left: 25px;
+        border: 5px outset rgb(245, 241, 241);
+        background-color:  white;
+        text-align:center;
+        position: relative;
+    }
+    .menu li{
+        position: relative;
+    }
+    .buscador{
+        text-align: center;
+    }
+    .padreflex5{
+        text-align: left;
+        width: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap:nowrap;
+        justify-content:space-evenly;
+    }
+    .listaSiguenos li{
+        padding: 0px;
+        font-size: 18px;
+        position: relative;
+    }
+    .listaContacto li{
+        padding: Opx;
+        font-size: 15px;
+        font-family:'Baloo Da 2', cursive;
+        position: relative;
+    }
+    .cajaPie{
+        width: 320px;
+        height: auto;
+        text-align: left;
+        padding-top: 0px;
+    }
+}
+
+@media (max-width:320px) {
+    #productos{
+        display: grid;
+        grid-template-areas:
+        "header"
+        "titulo"
+        "parrafo"
+        "producto"
+        "footer";
+        grid-template-rows:1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+        grid-row-gap: 5px;
+    }
+    .padreflex4{
+        display: flex;
+        flex-direction: column;
+    }
+    .parrafosIntroductorios2{
+        font-size: 15px;
+        padding:0px;
+    }
+    .whatsapp{
+        visibility: hidden;
+    }
+    .cajaContenido5{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .section2{
+        margin-right: 0px;
+    }
+    .section3{
+        margin-left: 0px;
+    }
+    .menu li{
+        display: block;
+        width: 100px;
+        height: 30px;
+        font-size: 15px;
+        font-family:'Baloo Da 2', cursive;
+        padding-top: 10px;
+        margin-left: 25px;
+        border: 5px outset rgb(245, 241, 241);
+        background-color:  white;
+        text-align:center;
+        position: relative;
+    }
+    .menu li{
+        left: 20%;
+        position: relative;
+    }
+    .buscador{
+        text-align: center;
+    }
+    .padreflex5{
+        text-align: left;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap:wrap;
+        justify-content:space-evenly;
+    }
+    .listaSiguenos li{
+        padding: 0px;
+        font-size: 18px;
+        position: relative;
+    }
+    .listaContacto li{
+        padding: Opx;
+        font-size: 15px;
+        font-family:'Baloo Da 2', cursive;
+        position: relative;
+    }
+    .cajaPie{
+        width: 320px;
+        height: auto;
+        text-align: left;
+        padding-top: 0px;
+    }
+}
+
+
+

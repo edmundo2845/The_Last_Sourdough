@@ -1,0 +1,265 @@
+.titulo_Index {
+  font-family: "Permanent Marker", cursive;
+  color: black;
+  font-size: 50px;
+  border-bottom: 1px black solid; }
+
+.titulo_sobrenosotros {
+  font-family: "Permanent Marker", cursive;
+  color: black;
+  text-align: center;
+  font-size: 50px; }
+
+.titulo_novedades {
+  font-family: "Permanent Marker", cursive;
+  color: black;
+  text-align: center;
+  font-size: 50px; }
+
+.titulo_contacto {
+  font-family: "Permanent Marker", cursive;
+  color: white;
+  text-align: center;
+  font-size: 50px; }
+
+.titulo_productos {
+  font-family: "Permanent Marker", cursive;
+  color: white;
+  text-align: center;
+  font-size: 50px; }
+
+.subtitulo_footer {
+  font-family: "Baloo Da 2", cursive;
+  font-size: 35px; }
+
+.subtitulo_main_productos {
+  font-family: "Baloo Da 2", cursive;
+  font-size: 35px;
+  color: black;
+  text-align: center; }
+
+.subtitulo_main_index_p {
+  font-family: "Baloo Da 2", cursive;
+  font-size: 35px;
+  color: black;
+  text-align: center; }
+
+.subtitulo_main_contacto {
+  font-family: "Baloo Da 2", cursive;
+  font-size: 35px;
+  color: black;
+  text-align: center; }
+
+.subtitulo_main_sobrenosotros {
+  font-family: "Permanent Marker", cursive;
+  font-size: 35px;
+  color: black;
+  padding-left: 25px; }
+
+.subtitulo_main_novedades {
+  font-family: "Permanent Marker", cursive;
+  font-size: 35px;
+  color: black;
+  padding-left: 25px; }
+
+.menuPrincipal li {
+  font-family: "Baloo Da 2", cursive;
+  font-size: 18px; }
+
+.logo {
+  font-family: "MonteCarlo", cursive;
+  font-size: 30px; }
+
+.listaContacto li {
+  padding: Opx;
+  margin: 15px;
+  font-size: 18px;
+  font-family: "Baloo Da 2", cursive; }
+
+p {
+  font-family: "Baloo Da 2", cursive; }
+
+h5 {
+  font-family: "Baloo Da 2", cursive; }
+
+.parrafosIntroductorios {
+  text-align: justify;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 18px;
+  word-spacing: 5px; }
+
+.Subtitulo_Beneficios {
+  font-family: "Baloo Da 2", cursive;
+  font-size: 17.5px;
+  color: black; }
+
+.Informacion_Beneficios {
+  font-family: "Baloo Da 2", cursive;
+  font-size: 15px;
+  color: white; }
+
+@media (max-width: 1286px) {
+  .Informacion_Beneficios {
+    font-family: "Baloo Da 2", cursive;
+    font-size: 12px;
+    color: white; }
+  .subtitulo_main_sobrenosotros {
+    font-family: "Permanent Marker", cursive;
+    font-size: 30px;
+    color: black;
+    padding-left: 25px; } }
+
+.descripcion_productos {
+  text-align: center;
+  padding: 25px;
+  font-size: 26px;
+  font-family: "MonteCarlo", cursive;
+  word-spacing: 5px;
+  border: 6px black double; }
+
+.div_tipoproducto {
+  background-color: black;
+  width: 350px;
+  height: 0px; }
+
+.subtitulo_div_tipoproducto {
+  margin-top: 5px;
+  width: 350px;
+  height: 50px;
+  border: none;
+  background-color: transparent;
+  text-align: center;
+  padding-top: 10px;
+  color: white;
+  font-size: 20px;
+  font-family: "Baloo Da 2", cursive; }
+
+footer {
+  background-color: black;
+  padding-left: 20%;
+  color: white; }
+
+.mapa_footer {
+  width: 100%;
+  height: 190px;
+  overflow: auto; }
+
+header {
+  background-color: black;
+  color: white; }
+
+.nav-item {
+  transition: 0.5s; }
+
+.nav-item:hover {
+  background-color: #383737;
+  transform: scale(1.1, 1.1); }
+
+.dropdown-item {
+  transition: 0.5s; }
+
+.dropdown-item:hover {
+  transform: scale(1.1, 1.1); }
+
+.boton_whatsapp_website {
+  width: 60px;
+  height: 60px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  transition: 1s; }
+
+.boton_whatsapp_website:hover {
+  width: 70px;
+  height: 70px; }
+
+@media (max-width: 1286px) {
+  .media_footer {
+    display: flex;
+    flex-direction: column; } }
+
+.div_titulo, .div_titulo_sobrenosotros, .div_titulo_contacto, .div_titulo_productos, .div_titulo_novedades {
+  border: none;
+  padding-top: 25px;
+  height: 120px;
+  background-size: cover; }
+
+.div_titulo_sobrenosotros {
+  background-image: url("../Imagen/sobrenosotros.jpg");
+  background-size: cover;
+  background-position-y: 35%; }
+
+.div_titulo_contacto {
+  background-image: url("../Imagen/contacto.jpg");
+  background-size: cover;
+  background-position-y: 35%; }
+
+.div_titulo_productos {
+  background-image: url("../Imagen/productos.jpg");
+  background-size: cover;
+  background-position-y: 35%; }
+
+.div_titulo_novedades {
+  background-image: url("../Imagen/novedades.jpg");
+  background-size: cover;
+  background-position-y: 35%; }
+
+.card_beneficios {
+  position: relative;
+  width: 30%;
+  height: 200px;
+  transition: 0.6s;
+  transform-style: preserve-3d;
+  transform-origin: 100% 100px;
+  margin: 5px;
+  border: none; }
+
+.card_beneficios:hover {
+  transform: rotateX(180deg); }
+
+.frontCard_beneficios, .backCard_beneficios {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border: none; }
+
+.frontCard_beneficios {
+  transform: rotateX(0deg);
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.backCard_beneficios {
+  transform: rotateX(180deg);
+  background-color: #c54d4d;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.div_imagenProducto {
+  display: flex;
+  flex-direction: column; }
+
+.encabezado_tabla_novedades {
+  background-color: #c54d4d;
+  color: white; }
+
+.formulario_casillas {
+  margin-bottom: 10px; }
+
+.imganes_productos {
+  width: 350px;
+  height: 250px; }
+
+.imganes_productos:hover + .div_tipoproducto {
+  height: 50px; }
+
+.transition_div_tipoproducto {
+  transition: ease-in-out 0.7s height; }
